@@ -1,0 +1,10 @@
+{
+    "name": "Bowls Measure",
+    "protocol": "ftp",
+    "host": "ftp.bowlsmeasure.tech",
+    "port": 21,
+    "username": "u649482260.bowlsmeasure",
+    "password": "aS58o7dN4eSm",
+    "remotePath": "/",
+    "uploadOnSave": true
+}

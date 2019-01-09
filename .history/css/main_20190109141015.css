@@ -1,0 +1,11 @@
+.photo-button {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	background-color: lightgrey;
+	border-radius: 50%;
+}
+
+.photo-button i {
+	font-size: 2em;
+}

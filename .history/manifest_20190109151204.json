@@ -1,0 +1,20 @@
+{
+	"short_name": "Measure",
+	"name": "Bowls Measure",
+	"icons": [{
+			"src": "images/icon-128.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "images/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/",
+	"background_color": "#3367D6",
+	"display": "standalone",
+	"orientation": "landscape",
+	"theme_color": "#3367D6"
+}
