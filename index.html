@@ -8,28 +8,47 @@
 	<link rel="manifest" href="manifest.json">
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
-	<!-- <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" /> -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/app.css" />
 
+	<script src="node_modules/tracking/build/tracking-min.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/image-capture/lib/imagecapture.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
 <body>
 	<!-- Display feed from camera -->
-	<video class="camera"></video>
+	<video class="camera" id="myVideo"></video>
 
 	<!-- Display image taken with overlay measurements -->
-	<img class="image" />
+	<div class="image-container">
+		<i class="fas fa-times image-close-button"></i>
+		<!-- Display image taken with overlay measurements -->
+		<img class="image" />
+	</div>
 
 	<!-- Button for taking image -->
 	<div class="photo-button">
 		<i class="fas fa-camera"></i>
 	</div>
 
+	<!-- Button for calibrating app -->
+	<div class="calibrate-button">
+		<i class="fas fa-crosshairs"></i>
+	</div>
+
 	<!-- Button for reloading app -->
 	<div class="reload-button">
 		<i class="fas fa-redo"></i>
 	</div>
+
+	<div class="tracking-rectangle-container"></div>
+
+	<!-- <div class="speeds">
+		X: <span class="x"></span>cm/s<br />
+		Y: <span class="y"></span>cm/s<br />
+		Z: <span class="z"></span>cm/s
+	</div> -->
 
 	<div>Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </body>

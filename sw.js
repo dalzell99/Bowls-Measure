@@ -1,5 +1,10 @@
-var CACHE_NAME = 'my-site-cache-v1';
-var urlsToCache = [];
+var CACHE_NAME = 'my-site-cache-v2';
+var urlsToCache = [
+	"css/reset.css",
+	"node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+	"node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2",
+	"node_modules/image-capture/lib/imagecapture.min.js"
+];
 
 self.addEventListener('install', function (event) {
 	// Perform install steps
