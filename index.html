@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/app.css" />
 
-	<script src="node_modules/tracking/build/tracking-min.js"></script>
+	<!-- <script src="node_modules/tracking/build/tracking-min.js"></script> -->
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/image-capture/lib/imagecapture.min.js"></script>
 	<script src="js/app.js"></script>
@@ -25,6 +25,17 @@
 		<i class="fas fa-times image-close-button"></i>
 		<!-- Display image taken with overlay measurements -->
 		<img class="image" />
+		<div class="marker clickMarker"></div>
+		<div class="marker leftMarker"></div>
+		<div class="marker rightMarker"></div>
+		<div class="marker topMarker"></div>
+		<div class="marker bottomMarker"></div>
+		<div class="marker centerMarker"></div>
+		<div class="marker2 leftMarker2"></div>
+		<div class="marker2 rightMarker2"></div>
+		<div class="marker2 topMarker2"></div>
+		<div class="marker2 bottomMarker2"></div>
+		<div class="boundingCircle"></div>
 	</div>
 
 	<!-- Button for taking image -->
@@ -33,16 +44,16 @@
 	</div>
 
 	<!-- Button for calibrating app -->
-	<div class="calibrate-button">
+	<!-- <div class="calibrate-button">
 		<i class="fas fa-crosshairs"></i>
-	</div>
+	</div> -->
 
 	<!-- Button for reloading app -->
 	<div class="reload-button">
 		<i class="fas fa-redo"></i>
 	</div>
 
-	<div class="tracking-rectangle-container"></div>
+	<!-- <div class="tracking-rectangle-container"></div> -->
 
 	<!-- <div class="speeds">
 		X: <span class="x"></span>cm/s<br />
